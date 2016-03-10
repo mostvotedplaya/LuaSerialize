@@ -17,34 +17,5 @@ then
 end
 ```
 
-### Example translation
-```
-local vars = {}
-vars["string"]  = "string"
-vars["integer"] = 1
-vars["double"]  = 0.5
-vars["true"]    = true
-vars["false"]   = false
-vars["null"]    = nil
-vars["list"]    = {1,2,3,4,5}
-vars["dict"]    = {["price"] = 19.99}
-```
-
-```
-array (size=7)
-  'true' => boolean true
-  'string' => string 'string' (length=6)
-  'dict' => 
-    array (size=1)
-      'price' => float 19.99
-  'integer' => int 1
-  'list' => 
-    array (size=5)
-      1 => int 1
-      2 => int 2
-      3 => int 3
-      4 => int 4
-      5 => int 5
-  'false' => boolean false
-  'double' => float 0.5
-```
+### Todo
+Write tests.
